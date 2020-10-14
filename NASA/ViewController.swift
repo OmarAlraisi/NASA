@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageLibraryButtonView: UIButton!
     @IBOutlet weak var weatherOnMarsButtonView: UIButton!
     
+    var tempModel = TempratureModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -21,7 +23,6 @@ class ViewController: UIViewController {
         // Change bottons corners
         imageLibraryButtonView.layer.cornerRadius = 30
         weatherOnMarsButtonView.layer.cornerRadius = 30
-        
     }
 
 }

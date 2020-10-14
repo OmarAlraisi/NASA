@@ -16,7 +16,7 @@ struct Constants {
     static var ENDPOINT = "/search?q="
     static var SEARCH_KEYWORD = ""
     static var IMAGE_LIBRARY_API_URL = "https://images-api.nasa.gov/search?media_type=image&q="
+    
+    // Mars weather
+    static var MARS_API = "https://api.nasa.gov/insight_weather/?api_key=\(Constants.API_KEY)&feedtype=json"
 }
-/*https://images-api.nasa.gov/search?q=mars&media_type=image&page=1
- https://images-api.nasa.gov\(Constants.ENDPOINT)\(Constants.SEARCH_KEYWORD)&media_type=image&page=1
- */

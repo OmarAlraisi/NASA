@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0700AF10253722D100DF3936 /* MarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0700AF0F253722D100DF3936 /* MarsViewController.swift */; };
 		0703361A252E13F100776629 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07033619252E13F100776629 /* AppDelegate.swift */; };
 		0703361C252E13F100776629 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703361B252E13F100776629 /* SceneDelegate.swift */; };
 		0703361E252E13F100776629 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0703361D252E13F100776629 /* ViewController.swift */; };
@@ -18,13 +19,16 @@
 		07033633252E33FC00776629 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07033632252E33FC00776629 /* Images.swift */; };
 		07033635252E353400776629 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07033634252E353400776629 /* Model.swift */; };
 		07033637252E378300776629 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07033636252E378300776629 /* Response.swift */; };
+		0716C3C925360DDB000405E4 /* SolKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0716C3C825360DDB000405E4 /* SolKeys.swift */; };
 		075B810D2533282D004A8B20 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075B810C2533282D004A8B20 /* Links.swift */; };
 		075B810F25332BEF004A8B20 /* JData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075B810E25332BEF004A8B20 /* JData.swift */; };
 		075F9F0B253334FE003D49E5 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F9F0A253334FE003D49E5 /* ImageTableViewCell.swift */; };
 		075F9F0D25333957003D49E5 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075F9F0C25333957003D49E5 /* CacheManager.swift */; };
+		07FD60952535BB5B007DBCDA /* TempratureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FD60942535BB5B007DBCDA /* TempratureModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0700AF0F253722D100DF3936 /* MarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsViewController.swift; sourceTree = "<group>"; };
 		07033616252E13F100776629 /* NASA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07033619252E13F100776629 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0703361B252E13F100776629 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,10 +42,12 @@
 		07033632252E33FC00776629 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		07033634252E353400776629 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		07033636252E378300776629 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		0716C3C825360DDB000405E4 /* SolKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolKeys.swift; sourceTree = "<group>"; };
 		075B810C2533282D004A8B20 /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
 		075B810E25332BEF004A8B20 /* JData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JData.swift; sourceTree = "<group>"; };
 		075F9F0A253334FE003D49E5 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
 		075F9F0C25333957003D49E5 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		07FD60942535BB5B007DBCDA /* TempratureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempratureModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +84,6 @@
 				0703361B252E13F100776629 /* SceneDelegate.swift */,
 				0703361D252E13F100776629 /* ViewController.swift */,
 				07033630252E29F700776629 /* Constants.swift */,
-				0703361F252E13F100776629 /* Main.storyboard */,
-				07033622252E13F200776629 /* Assets.xcassets */,
-				07033624252E13F200776629 /* LaunchScreen.storyboard */,
-				07033627252E13F200776629 /* Info.plist */,
 				0703362E252E1EDA00776629 /* ImageLibraryViewController.swift */,
 				07033634252E353400776629 /* Model.swift */,
 				07033636252E378300776629 /* Response.swift */,
@@ -90,6 +92,13 @@
 				075B810E25332BEF004A8B20 /* JData.swift */,
 				075F9F0A253334FE003D49E5 /* ImageTableViewCell.swift */,
 				075F9F0C25333957003D49E5 /* CacheManager.swift */,
+				0716C3C825360DDB000405E4 /* SolKeys.swift */,
+				0703361F252E13F100776629 /* Main.storyboard */,
+				07033622252E13F200776629 /* Assets.xcassets */,
+				07033624252E13F200776629 /* LaunchScreen.storyboard */,
+				07033627252E13F200776629 /* Info.plist */,
+				07FD60942535BB5B007DBCDA /* TempratureModel.swift */,
+				0700AF0F253722D100DF3936 /* MarsViewController.swift */,
 			);
 			path = NASA;
 			sourceTree = "<group>";
@@ -167,6 +176,9 @@
 			files = (
 				075B810F25332BEF004A8B20 /* JData.swift in Sources */,
 				07033637252E378300776629 /* Response.swift in Sources */,
+				0716C3C925360DDB000405E4 /* SolKeys.swift in Sources */,
+				0700AF10253722D100DF3936 /* MarsViewController.swift in Sources */,
+				07FD60952535BB5B007DBCDA /* TempratureModel.swift in Sources */,
 				07033635252E353400776629 /* Model.swift in Sources */,
 				075F9F0B253334FE003D49E5 /* ImageTableViewCell.swift in Sources */,
 				075F9F0D25333957003D49E5 /* CacheManager.swift in Sources */,
@@ -252,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -306,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -323,6 +335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZPBY8A3227;
 				INFOPLIST_FILE = NASA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +343,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.OmarAlraisi.NASA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -341,6 +354,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZPBY8A3227;
 				INFOPLIST_FILE = NASA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -348,7 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.OmarAlraisi.NASA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
