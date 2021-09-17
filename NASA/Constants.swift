@@ -10,7 +10,7 @@ import Foundation
 
 struct Constants {
     
-    static var API_KEY = "tuS7vrKgad8KjyABVfQTF4loWCXZTk1Iczja46KH"
+    static var API_KEY = "CHANGE ME" // Enter your key here
     
     // Image library doesn't require a key
     static var ENDPOINT = "/search?q="
